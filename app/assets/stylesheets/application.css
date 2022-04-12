@@ -13,13 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #fff;
   color: #333;
@@ -73,8 +66,8 @@ td {
   padding-right: 5px;
 }
 
-div .field,
-div .actions {
+div.field,
+div.actions {
   margin-bottom: 10px;
 }
 
@@ -82,7 +75,7 @@ div .actions {
   color: green;
 }
 
-div.field_with_errors {
+field_with_errors {
   padding: 2px;
   background-color:red;
   display: table;
@@ -111,4 +104,8 @@ div.field_with_errors {
 #error_explanation ul li{
   font-size: 12px;
   list-style: square;
+}
+
+label {
+    display: block;
 }
